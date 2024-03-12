@@ -38,7 +38,7 @@ const SofaCatalog = () => {
 
     return (
         <div className="container mx-auto py-8" name="Catalogo" style={{ fontFamily: "Courier New, monospace" }}>
-            <h2 className="text-3xl font-semibold text-center mb-8">Catálogo de Sofas</h2>
+            <h2 className="text-3xl font-semibold text-center mb-8">Sofas</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 {sofas.map((sofa) => (
                     <div key={sofa.id} className="bg-white shadow-lg rounded-lg overflow-hidden">
