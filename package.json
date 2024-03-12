@@ -1,7 +1,6 @@
 {
   "name": "cloud-app-react",
   "version": "0.1.0",
-  "homepage": "https://sebagutierez.github.io/cloud-app-react",
   "private": true,
   "dependencies": {
     "@heroicons/react": "^2.0.4",
