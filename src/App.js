@@ -1,22 +1,20 @@
 import Navbar from "./components/Navbar";
 import Inicio from "./components/Inicio";
+import Acerca from "./components/Acerca";
 import Sobrenos from "./components/Sobrenos";
 import Soporte from "./components/Soporte";
-import Lamparas from "./components/Lamparas";
-import Sofas from "./components/Sofas";
-import Sillas from "./components/Sillas"
 import Formulario from "./components/Formulario";
 import Footer from "./components/Footer";
+
+
 
 function App() {
   return (
     <>
       <Navbar />
       <Inicio />
+      <Acerca />
       <Sobrenos />
-      <Lamparas />
-      <Sofas />
-      <Sillas />
       <Soporte />
       <Formulario />
       <Footer />

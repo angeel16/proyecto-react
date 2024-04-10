@@ -34,7 +34,7 @@ const Soporte = () => {
   };
 
   return (
-    <div name="Soporte" className="w-full mt-24" style={{ fontFamily: "Courier New, monospace" }}>
+    <div name="soporte" className="w-full mt-24" id="soporte">
       <div className="w-full h-[700px] bg-gray-900/90 absolute">
         <img
           className="object-cover w-full h-full mix-blend-overlay"
@@ -50,7 +50,7 @@ const Soporte = () => {
             Encuentra el apoyo adecuado
           </h3>
           <p className="py-4 text-3xl text-slate-300">
-            Estamos aquí para ayudarte con cualquier pregunta o problema que tengas sobre nuestras lámparas.
+            Estamos aquí para ayudarte con cualquier pregunta o problema que tengas sobre nuestros servicios informáticos.
           </p>
         </div>
 
@@ -60,7 +60,7 @@ const Soporte = () => {
               <PhoneIcon className="w-16 p-4 text-white bg-indigo-600 rounded-lg mb-6" />
               <h3 className="my-2 text-2xl font-bold ">Ventas</h3>
               <p className="text-lg text-gray-600 mb-6">
-                ¿Tienes preguntas sobre nuestros productos o necesitas ayuda para hacer un pedido?
+                ¿Tienes preguntas sobre nuestros servicios informáticos o necesitas ayuda para hacer un pedido?
               </p>
             </div>
             <div className="p-4 bg-slate-100 cursor-pointer" onClick={() => handleContactClick("Ventas")}>
@@ -70,7 +70,8 @@ const Soporte = () => {
             </div>
             {showContactVentas && (
               <div className="p-4 bg-gray-100 mt-4">
-                <p>Contacto para Ventas: ventas@destellosefimeros.com</p>
+                <p>Contacto para Ventas: ventas@tuempresa.com</p>
+                <p>Teléfono de Ventas: +123 456 789</p>
               </div>
             )}
           </div>
@@ -80,7 +81,7 @@ const Soporte = () => {
               <LightBulbIcon className="w-16 p-4 text-white bg-indigo-600 rounded-lg mb-6" />
               <h3 className="my-2 text-2xl font-bold ">Soporte Técnico</h3>
               <p className="text-lg text-gray-600 mb-6">
-                ¿Necesitas ayuda para instalar o configurar tus lámparas?
+                ¿Necesitas ayuda para instalar o configurar tus sistemas informáticos?
               </p>
             </div>
             <div className="p-4 bg-slate-100 cursor-pointer" onClick={() => handleContactClick("Soporte Técnico")}>
@@ -90,7 +91,8 @@ const Soporte = () => {
             </div>
             {showContactSoporte && (
               <div className="p-4 bg-gray-100 mt-4">
-                <p>Contacto para Soporte Técnico: soporte@destellosefimeros.com</p>
+                <p>Contacto para Soporte Técnico: soporte@tuempresa.com</p>
+                <p>Teléfono de Soporte Técnico: +123 456 789</p>
               </div>
             )}
           </div>
@@ -100,7 +102,7 @@ const Soporte = () => {
               <LightBulbIcon className="w-16 p-4 text-white bg-indigo-600 rounded-lg mb-6" />
               <h3 className="my-2 text-2xl font-bold ">Consultas de Medios</h3>
               <p className="text-lg text-gray-600 mb-6">
-                ¿Eres parte de los medios de comunicación y tienes preguntas sobre nuestra empresa o productos?
+                ¿Eres parte de los medios de comunicación y tienes preguntas sobre nuestra empresa o servicios informáticos?
               </p>
             </div>
             <div className="p-4 bg-slate-100 cursor-pointer" onClick={() => handleContactClick("Consultas de Medios")}>
@@ -110,7 +112,8 @@ const Soporte = () => {
             </div>
             {showContactMedios && (
               <div className="p-4 bg-gray-100 mt-4">
-                <p>Contacto para Consultas de Medios: prensa@destellosefimeros.com</p>
+                <p>Contacto para Consultas de Medios: prensa@tuempresa.com</p>
+                <p>Teléfono de Medios: +123 456 789</p>
               </div>
             )}
           </div>

@@ -9,9 +9,8 @@ import {
 
 const Footer = () => {
   return (
-    <div className="w-full px-2 mt-24 text-center text-gray-300 bg-slate-900 py-y" style={{ fontFamily: "Courier New, monospace" }}>
+    <div className="w-full px-2 mt- text-center text-gray-300 bg-slate-900 py-y" style={{ fontFamily: "Courier New, monospace" }}>
       <div className="max-w-[1240px] mx-auto grid grid-cols-2 lg:grid-cols-6 md:grid-cols-5 border-b-2 border-gray-600 py-8">
-        {/* Sección SOPORTE */}
         <div>
           <h6 className="pt-2 font-bold">SOPORTE</h6>
           <ul>
@@ -22,7 +21,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Sección EMPRESA */}
         <div>
           <h6 className="pt-2 font-bold">EMPRESA</h6>
           <ul>
@@ -34,7 +32,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Sección LEGAL */}
         <div>
           <h6 className="pt-2 font-bold">LEGAL</h6>
           <ul>
@@ -63,7 +60,7 @@ const Footer = () => {
       </div>
 
       <div className="flex-col flex max-w-[1240px] px-2 py-4 mx-auto justify-between sm:flex-row text-center text-gray-500">
-        <p className="py-4">2024 Angel Borrego Marrón</p>
+        <p className="py-4">2024 Redes y Componentes, S.L.</p>
         <div className="flex sm:w-[300px] justify-around pt-4 text-2xl">
           <FaFacebook />
           <FaInstagram />
